@@ -1,0 +1,16 @@
+-neural network is simply a combination of neurons connected together
+
+-simpleNetwork.png  has two inputs, a hidden layer with 2 neurons (h1 and h2), and an output layer with 1 neuron (o1)
+-inputs for o1 are the outputs from h1 and h2 thats what makes this a network
+
+-a hidden layer is any layer between the input(first) layer and output(last) layer, there can be multiple hidden layers
+
+An Example: Feedforward
+
+-in reference to simpleNetwork.png assume all neurons have the same weights w = [0,1], the same bias b=0, and the same sigmoid activation function
+-let h1, h2, o1 denote the outputs of the neurons they represent
+
+-a neural network can have any number of layers with any number of neurons in those layers
+
+-the basic ideas stays the same: feed the input(s) forward through the neurons in the netwrok to get the output(s) at the end
+
